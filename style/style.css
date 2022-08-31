@@ -1,0 +1,26 @@
+#countries-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.country {
+    border: 1px rebeccapurple solid;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: lightskyblue;
+
+}
+
+.country button {
+    padding: 5px;
+    background-color: wheat;
+    border-radius: 5px;
+}
+
+#country-detail img {
+    border: 0.1px rebeccapurple solid;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
